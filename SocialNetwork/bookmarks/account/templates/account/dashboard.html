@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Logged out{% endblock %}
+
+{% block content %}
+    <h1>Dashboard</h1>
+    <p>Welcome to your dashboard.</p>
+    <p>
+        You can <a href="{% url 'edit' %}">edit your profile</a>
+        or <a href="{% url 'password_change' %}">change your password</a>.
+    </p>
+    {% with total_images_created=request.user.images_created.count %}
+        <p>You have bookmarked {{ total_images_created }} images!</p>
+    {% endwith %}
+
+<!--    <p>Click the following button to your bookmarks toolbar to create images from other websites</p>-->
+<!--    <button onclick="function f() {-->
+<!--      if(window.myBookmarklet!==undefined){-->
+<!--        myBookmarklet();-->
+<!--    }-->
+<!--    else{-->
+<!--        document.body.appendChild(document.createElement('script')).src='http://127.0.0.1:8000'-->
+<!--    }-->
+<!--    }">Bookmark</button>-->
+{% endblock %}

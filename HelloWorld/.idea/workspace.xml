@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2927457f-8c6d-4bd7-99dd-f8e95da42adb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../GAD/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GAD/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GAD/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GAD/cars.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GAD/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GAD/files.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GAD/teams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../GAD/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/HelloWorld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../GAD/.idea/GAD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GAD/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GAD/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GAD/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GAD/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_package/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GAD/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_package/module_and_packege.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GAD/my_package/module_and_packege.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_oop.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GAD/my_package/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/../GAD/test_file.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="22JyPBCBmx41rxlZ5KJFkUf7fip" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2927457f-8c6d-4bd7-99dd-f8e95da42adb" name="Changes" comment="" />
+      <created>1639569958378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639569958378</updated>
+      <workItem from="1639569959568" duration="8000" />
+      <workItem from="1639570201502" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

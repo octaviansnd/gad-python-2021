@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link href="/static/base.css" rel ="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrapper site-header__wrapper">
+            <a href="#" class="brand">InstaKilogram</a>
+            <nav class="nav">
+                <ul class="nav__wrapper">
+                    <li class="nav__item"><a href="/account/">Dashboard</a></li>
+                    <li class="nav__item"><a href="/images/create/">Images</a></li>
+                    <li class="nav__item"><a href="#">People</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!--    <div id="header">-->
+<!--        <span class="logo">Bookmarks</span>-->
+<!--        {% if request.user.is_authenticated %}-->
+<!--        <nav class="navMenu">-->
+<!--            <a href="#">Home</a>-->
+<!--            <a href="#">Images</a>-->
+<!--            <a href="#">People</a>-->
+<!--            <div class="dot"></div>-->
+<!--        </nav>-->
+<!--        {% endif %}-->
+
+        <span class="user">
+            {% if request.user.is_authenticated %}
+                Hello {{ request.user.first_name }}, <a href="{% url 'logout' %}">Logout</a>
+            {% else %}
+                <a class="loginbtn" href="{% url 'login' %}">Log-in</a>
+            {% endif %}
+        </span>
+    </div>
+
+    {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li class="{{ message.tags }}">
+                {{ message|safe }}
+                <a href="#" class="close">x</a>
+            </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+</body>
+</html>
